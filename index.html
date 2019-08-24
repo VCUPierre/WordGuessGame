@@ -6,9 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container text-center">
+    <canvas id="my-canvas" class="display0"></canvas>
+    <div class="container text-center" id="main">
+    <div id="titleBox">
+        <h2>What type of car am I?</h2>
+        <h2>A javascript Hangman Game</h2>
+    </div>
+    <hr>
     <div id="winsBox">
         <h3>Wins</h3>
         <h4 id="wins"> 0 </h4>
@@ -26,7 +33,9 @@
         <h3>Letter used so far</h3>
         <h4 id="letters">  </h4>
     </div>
+    <img src="bmwImg.jpg" alt="bmw image" style="height: 200px;">
     </div>
 </body>
+<script src="index.min.js"></script>
 <script src="scripts.js"></script>
 </html>
